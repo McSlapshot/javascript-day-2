@@ -52,3 +52,13 @@ def small_nums2(arr):
     return result
 
 print(small_nums2([6,5,4,8]))
+
+
+# Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).
+# Examples:
+# solution('abc', 'bc') # returns true
+# solution('abc', 'd') # returns false
+def matched(arg1, arg2):
+    return arg1.endswith(arg2)
+    
+print(matched('abc', 'd'))
